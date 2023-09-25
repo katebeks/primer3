@@ -4,7 +4,6 @@ class Animals:
         self.vid = vid
         self.name = name
         self.age = age
-
     @abstractmethod
     def vid_a(self):
         print("Принадлежность: " + self.vid)
