@@ -16,7 +16,6 @@ class Animals:
     @abstractmethod
     def age_a(self):
         print("Возраст - " + str(self.age))
-
 class Dikie(Animals):
     def __init__(self, vid = "кабан", name = "Гоша", age = 5):
         super().__init__(vid,name,  age)
